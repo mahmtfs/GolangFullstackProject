@@ -4,7 +4,26 @@
 
 body{
     margin: auto;
+    overflow: overlay;
     background-image: url("bg.png");
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+::-webkit-scrollbar-thumb {
+    background:rgba(226, 226, 226, 0.7);
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: rgba(226, 226, 226, 1);
 }
 
 .header{
@@ -73,7 +92,7 @@ nav ul li a:hover{
 
 .restaurants li{
     overflow: hidden;
-    padding: 10px;
+    padding: 10px 15px;
 }
 
 .list-block{
