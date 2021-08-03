@@ -153,12 +153,10 @@ nav ul li a:hover{
     opacity: 50%;
     height:40px;
     background-color:white;
-    border:1px solid transparent;
 }
 
 .categories-content ul li a:hover .category{
     transition: 1.5s;
-    border:1px solid rgb(92, 92, 92);
     opacity: 100%;    
 }
 
@@ -168,12 +166,12 @@ nav ul li a:hover{
 }
 
 .main-wrapper{
-    margin-left: 420px;
+    margin-right: 420px;
 }
 
 .dropdown-filter-box{
     display: block;
-    height: 2000px;
+    height: 50px;
     margin-top: 80px;
     margin-right: 20px;
 }
@@ -204,7 +202,6 @@ nav ul li a:hover{
     display: none;
     background-color:rgb(226, 226, 226);
     min-width: 160px;
-    z-index: 1;
 }
 
 .dropdown-content a{
@@ -218,14 +215,55 @@ nav ul li a:hover{
 
 .dropdown:hover{
     transition: 1s;
-    background-color: rgb(236, 236, 236);
+    background-color: white;
 }
 
 .dropdown-content a:hover{
     transition: 1s;
-    background-color: rgb(236, 236, 236);
+    background-color: white;
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.menu-wrapper{
+    display: block;
+    height: 100%;
+    margin-left: 420px;
+}
+
+.menu{
+    display: block;
+    float: left;
+    height:100%;
+    padding-top: 130px;
+    margin-right: 20px;
+}
+
+.menu ul{
+    display: block;
+    overflow: visible;
+    margin-top: 10px;
+    padding-left: 0;
+}
+
+.menu ul li{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    margin-right: 0;
+    opacity: 90%;
+    background-color: rgb(226, 226, 226);
+}
+
+.menu ul li a{
+    display: block;
+    margin-right: 20px;
+    height:200px;
+    width: 200px;
+}
+
+.menu ul li:hover{
+    opacity: 100%;
 }
