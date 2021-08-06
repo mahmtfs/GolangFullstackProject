@@ -1,4 +1,4 @@
-{"id":0,"name":"Sasha","email":"debil@gmail.com","password":"sas"}
+{"id":0,"name":"Sasha","email":"ret@gmail.com","password":"gob"}
 {"id":1,"name":"Boris","email":"moiseev@gmail.com","password":"gogi"}
 {"id":2,"name":"Name","email":"name@mail.com","password":"password"}
 {"id":3,"name":"Name","email":"name@mail.com","password":"password"}

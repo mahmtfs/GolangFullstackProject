@@ -21,10 +21,10 @@ var password string
 
 type UserRepositoryI interface{
 	Create(u *model.User) (*model.User, error)
-	Get(email *string, id *int32) *model.User
-	GetAll() []*model.User
-	Delete(id int) error
-	Edit(u *model.User) *model.User
+	GetByID(user *model.User, id *int32) *model.User
+	GetAll()
+	Delete(id int)
+	Edit(id int)
 }
 
 type UserFileRepository struct{
